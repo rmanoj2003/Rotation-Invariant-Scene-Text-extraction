@@ -53,3 +53,12 @@ Ratio loss for offset & SPW maps
 Cross-entropy for character prediction
 
 Datasets Used: SynthText, ICDAR2015, SCUT-CTW1500, CUTE80
+📂 RotationInvariantTextExtraction
+ ├── detection/          # Text detection module
+ ├── recognition/        # Vision Transformer-based recognition
+ ├── preprocessing/      # Label generation & dataset preparation
+ ├── utils/              # Helper functions and evaluation metrics
+ ├── train.py            # Training pipeline
+ ├── test.py             # Testing & inference script
+ ├── requirements.txt    # Python dependencies
+ └── README.md           # Documentation
